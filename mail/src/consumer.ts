@@ -31,7 +31,7 @@ export const startSendOtpConsumer = async () => {
             port: 465,
             secure: true, //for aws
             auth: {
-              user: process.env.USER,
+            user: process.env.EMAIL,
               pass: process.env.PASSWORD,
             },
           });
